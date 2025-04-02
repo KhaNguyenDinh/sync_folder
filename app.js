@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('fs'); // require('node:fs');
 const path = require('path');
 const chokidar = require('chokidar');
 const FormData = require("form-data");
@@ -17,8 +17,8 @@ activeWindow : tg bo theo doi thu muc
 scanInterval : tg load check thu muc moi
 */
 
-const activeWindow = 24 * 60 * 60 * 1000; // 24h kiem tra 1 ngay ko co file moi -> ko theo doi nua
-const scanInterval = 1 * 60 * 60 * 1000 ; // 10 phút ktra 1 lan xem co thu muc moi khong
+const activeWindow = 25 * 60 * 60 * 1000; // kiem tra 25h ngay ko co file moi -> ko theo doi nua
+const scanInterval = 1 * 60 * 60 * 1000 ; // 1h ktra 1 lan xem co thu muc moi khong
 // khi load thu muc thi file.txt se tu dong load muon
 let processedFiles = new Set();
 let watchers = new Map(); // Watcher cho thư mục lá
