@@ -39,3 +39,23 @@ pm2 stop name.js  | pm2 stop id
 __delete
 
 pm2 delete name.js | pm2 deleta id
+__________________________________________________________________________________
+
+$ git config --global user.email "nguyendinhkha95@example.com"
+
+$ git config --global user.name "KhaNguyenDinh"
+
+$ git config --global --list
+
+		user.email=nguyendinhkha95@example.com
+		user.name=KhaNguyenDinh
+$ git add .
+
+$git status
+
+$ git commit -m 'creat'
+
+$ git push origin main
+
+
+
