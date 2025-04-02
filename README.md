@@ -6,7 +6,7 @@ npm -v
 
 // code đang su dung node 12.18.3 npm  6.14.6  chokidar@3.3.1
 
-// update node => npm install chokidar@4.0.3
+// update node => npm install chokidar@4.0.3   & edit : const fs = require('node:fs');
 
 ___start
 
