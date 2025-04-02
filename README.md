@@ -1,59 +1,34 @@
-__check 
+_________check   
 
-node -v
+    node -v
+    npm -v
+    // code đang su dung node 12.18.3 npm  6.14.6  chokidar@3.3.1
+    // update node => npm install chokidar@4.0.3   & edit : const fs = require('node:fs');
+_________________________________________________________________________________________
 
-npm -v
+_________start
 
-// code đang su dung node 12.18.3 npm  6.14.6  chokidar@3.3.1
+    npm init // enter tới kết thúc.
+    npm install
+    node app.js
+    Ctrl +c // end
+_______________________________________________________________________
+_________auto
 
-// update node => npm install chokidar@4.0.3   & edit : const fs = require('node:fs');
-
-___start
-
-npm init // enter tới kết thúc.
-
-npm install
-
-node app.js
-
-__end 
-
-Ctrl +c
-
-__auto
-
-pm2 start app.js
-
-__danh sach ddang chay
-
-pm2 list
-
-__lich su
-
-pm2 logs
-
-__stop
-
-pm2 stop name.js  | pm2 stop id
-
-__delete
-
-pm2 delete name.js | pm2 deleta id
+    pm2 start app.js
+    pm2 list
+    pm2 logs
+    pm2 stop name.js  || pm2 stop id
+    pm2 delete name.js || pm2 deleta id
 __________________________________________________________________________________
 
-git config --global user.email "you@example.com"
-
-git config --global user.name "Your Name"
-
-$ git config --global --list
-
-$ git add .
-
-$git status
-
-$ git commit -m 'creat'
-
-$ git push origin main
+    git config --global user.email "you@example.com" 
+    git config --global user.name "Your Name"
+    git config --global --list
+    git add .
+    git status
+    git commit -m 'creat'
+    git push origin main
 
 
 
