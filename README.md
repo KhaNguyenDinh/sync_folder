@@ -1,4 +1,9 @@
 copy txt từ thư mục A->B
+
+# sync_txt.js
+    copy txt moi nhat
+# sync_folder
+    theo doi thu muc moi nhat -> copy full thu muc && txt
 # cài node 12.18.3
     https://nodejs.org/dist/v12.18.3/
 
