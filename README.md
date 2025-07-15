@@ -1,4 +1,4 @@
-copy txt từ thư mục A->B
+copy txt từ thư mục A->B [dang cai cho saigonvrg]
 
 # sync_txt.js
     copy txt moi nhat
